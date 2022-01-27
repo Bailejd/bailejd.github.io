@@ -1,5 +1,6 @@
 export const projects = [
     {
+        id: 0,
         title: "project1",
         primary_language: "Python",
         languages: ["Python", "JavaScript"],
@@ -10,6 +11,7 @@ export const projects = [
         repo: "https://github.com/",
     },
     {
+        id: 1,
         title: "project2",
         primary_language: "JavaScript",
         languages: ["N/A"],
@@ -20,6 +22,7 @@ export const projects = [
         repo: "https://github.com/",
     },
     {
+        id: 2,
         title: "project3",
         primary_language: "JavaScript",
         languages: ["Javascript"],
