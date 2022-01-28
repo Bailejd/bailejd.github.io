@@ -19,7 +19,7 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-2/5 sm:mx-auto sm:mb-2 -mx-2">
           {languages.map((language) => (
             <div key={language} className="p-2 sm:w-1/3 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+              <div className="bg-gray-800 rounded p-4 h-full text-center">
                 <span className="title-font font-medium text-white">
                   {language}
                 </span>
@@ -33,7 +33,7 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-2/5 sm:mx-auto sm:mb-2 -mx-2">
           {others.map((other) => (
             <div key={other} className="p-2 sm:w-1/3 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+              <div className="bg-gray-800 rounded p-4 h-full text-center">
                 <span className="title-font font-medium text-white">
                   {other}
                 </span>
