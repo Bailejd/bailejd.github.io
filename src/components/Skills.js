@@ -1,4 +1,6 @@
 import React from "react";
+import { IconContext }  from "react-icons";
+import { FaBook } from "react-icons/fa";
 import { languages, others } from "../data";
 
 export default function Skills() {
@@ -6,6 +8,9 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
+          <IconContext.Provider value={{ size: "2em"}}>
+            <FaBook className="mx-auto inline-block w-20 mb-4"/>
+          </IconContext.Provider>
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills
           </h1>

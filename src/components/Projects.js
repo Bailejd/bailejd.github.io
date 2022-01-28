@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import ProjectDetails from "./ProjectDetails"
+import ProjectDetails from "./ProjectDetails";
+import {IconContext } from "react-icons";
+import { FaCode } from "react-icons/fa";
 import { projects } from "../data";
 
 export default function Projects() {
@@ -24,6 +26,9 @@ export default function Projects() {
     <section id="projects">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
+          <IconContext.Provider value={{ size: "2em"}}>
+            <FaCode className="mx-auto inline-block w-20 mb-4"/>
+          </IconContext.Provider>
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             My Projects / Repositories
           </h1>

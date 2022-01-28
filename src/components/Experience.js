@@ -1,4 +1,6 @@
 import React from "react";
+import { IconContext } from "react-icons";
+import { FaBriefcase } from "react-icons/fa";
 import { experiences } from "../data";
 
 export default function Experience() {
@@ -6,6 +8,9 @@ export default function Experience() {
     <section id="experience">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
+          <IconContext.Provider value={{ size: "2em"}}>
+            <FaBriefcase className="mx-auto inline-block w-20 mb-4"/>
+          </IconContext.Provider>
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Experience
           </h1>
