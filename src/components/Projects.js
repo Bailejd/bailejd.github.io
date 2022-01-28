@@ -44,9 +44,7 @@ export default function Projects() {
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900">
                   <h1 className="title-font text-2xl font-medium text-white mb-3">{project.title}</h1>
                   <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1">{project.primary_language}</h2>
-                  <h3 className="title-font text-white">{project.languages.join(' ')}</h3>
-                  <h3 className="title-font text-white">{project.other.join(' ')}</h3>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed">{project.short_description}</p>
                   <div className="flex justify-center pt-1 space-x-1">
                     <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" onClick={() => toggleProject(project.id)}>More</button>
                     <a href={project.repo} className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">GitHub</a>
