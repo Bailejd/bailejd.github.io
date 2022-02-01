@@ -5,7 +5,7 @@ import { experiences } from "../data";
 
 export default function Experience() {
   return (
-    <section id="experience">
+    <section id="experience" className="scroll-m-10">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <IconContext.Provider value={{ size: "2em"}}>
