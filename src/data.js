@@ -10,6 +10,7 @@ export const projects = [
         image: "",
         link: "#",
         repo: "https://github.com/",
+        repo_available: false,
     },
     {
         id: 1,
@@ -22,6 +23,7 @@ export const projects = [
         image: "",
         link: "#",
         repo: "https://github.com/",
+        repo_available: true,
     },
     {
         id: 2,
@@ -34,6 +36,7 @@ export const projects = [
         image: "",
         link: "#",
         repo: "https://github.com/",
+        repo_available: true,
     },
 ];
 
