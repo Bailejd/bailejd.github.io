@@ -24,11 +24,11 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-2/5 sm:mx-auto sm:mb-2 -mx-2">
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <SiPython className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white">
                   Python
                 </span>
               </div>
@@ -36,11 +36,11 @@ export default function Skills() {
           </div>
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <SiCplusplus className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white">
                   C++
                 </span>
               </div>
@@ -48,11 +48,11 @@ export default function Skills() {
           </div>
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <SiJavascript className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white">
                   JavaScript
                 </span>
               </div>
@@ -60,11 +60,11 @@ export default function Skills() {
           </div>
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <SiJava className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white">
                   Java
                 </span>
               </div>
@@ -77,11 +77,11 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-2/5 sm:mx-auto sm:mb-2 -mx-2">
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <SiGit className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white pr-1">
                   Git
                 </span>
               </div>
@@ -89,11 +89,11 @@ export default function Skills() {
           </div>
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <SiReact className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white">
                   React
                 </span>
               </div>
@@ -101,11 +101,11 @@ export default function Skills() {
           </div>
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <SiDjango className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white">
                   Django
                 </span>
               </div>
@@ -113,11 +113,11 @@ export default function Skills() {
           </div>
           <div className="p-2 w-1/3">
             <div className="bg-gray-800 flex justify-center rounded p-4 h-full text-center">
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em"}}>
                   <FaCode className=""/>
                 </IconContext.Provider>
-                <span className="title-font font-medium text-white pl-1">
+                <span className="title-font font-medium text-white">
                   Boost Test
                 </span>
               </div>
