@@ -47,7 +47,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <div key={project.title} id={"project" + project.id} className="sm:w-1/2 w-100 p-4">
+            <div key={project.title} id={"project" + project.id} className="sm:w-1/2 w-100 p-4 scroll-m-16">
               <div className="flex relative">
                 <div className="px-8 py-10 relative w-full border-4 border-gray-800 bg-gray-900">
                   <h1 className="title-font text-2xl font-medium text-white mb-3">{project.title}</h1>
