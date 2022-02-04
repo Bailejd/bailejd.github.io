@@ -42,7 +42,10 @@ export default function Projects() {
           <ProjectDetails id={id}/>
           <div className="flex justify-center pt-1 space-x-1">
             <button className="inline-flex text-white bg-red-500 border-0 px-6 focus:outline-none hover:bg-red-600 rounded text-lg" onClick={() => hide(id)}>Less</button>
-            <a href={projects[id].repo} className={`inline-flex text-white bg-green-500 hover:bg-green-600 border-0 px-6 focus:outline-none rounded text-lg ${projects[id].repo_available ? "" : "opacity-50 cursor-not-allowed"}`}>GitHub</a>
+            {projects[id].repo_available ? 
+              <a href={projects[id].repo} className="inline-flex text-white bg-green-500 hover:bg-green-600 border-0 px-6 focus:outline-none rounded text-lg">GitHub</a>
+              : null
+            }
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -55,7 +58,10 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.short_description}</p>
                   <div className="flex justify-center pt-1 space-x-1">
                     <button className="inline-flex text-white bg-green-500 hover:bg-green-600 border-0 py-2 px-6 focus:outline-none rounded text-lg" onClick={() => toggleProject(project.id)}>More</button>
-                    <a href={project.repo} className={`inline-flex text-white bg-green-500 hover:bg-green-600 border-0 py-2 px-6 focus:outline-none rounded text-lg ${project.repo_available ? "" : "opacity-50 cursor-not-allowed"}`}>GitHub</a>
+                    {project.repo_available ?
+                      <a href={project.repo} className="inline-flex text-white bg-green-500 hover:bg-green-600 border-0 py-2 px-6 focus:outline-none rounded text-lg">GitHub</a>
+                      : null
+                    }
                   </div>
                 </div>
               </div>
