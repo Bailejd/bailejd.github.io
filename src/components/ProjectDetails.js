@@ -8,7 +8,7 @@ export default function ProjectDetails({ id }) {
       <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1">{projects[id].primary_language}</h2>
       <h3 className="title-font text-white">{projects[id].languages.join(' ')}</h3>
       <h3 className="title-font text-white">{projects[id].other.join(' ')}</h3>
-      <p className="leading-relaxed mb-2">{projects[id].description}</p>
+      <p className="leading-relaxed mb-2 px-10">{projects[id].description}</p>
     </div>
   );
 }
