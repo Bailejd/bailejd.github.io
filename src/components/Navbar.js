@@ -6,6 +6,21 @@ import { FaGithub } from "react-icons/fa";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleClick = (anchor) => {
+    if(isOpen) {
+      setIsOpen(false);
+    }
+
+    // Since closing the mobile navbar and moving to anchor point happen
+    //  on the same click it goes to the anchor and then moves the page
+    //  when the navbar closes.
+    // One way to handle the difference in anchor position before and after
+    //  closing the mobile navbar is to have a short delay (let nav close first).
+    setTimeout(() => {
+      window.location.href = "#" + anchor;
+    }, 100);
+  }
+
   return (
     <div className="top-0 z-10 sticky">
       <nav className="bg-gray-800">
@@ -71,18 +86,18 @@ export default function Navbar() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#about" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium">
+                <button href="#about" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium" onClick={() => handleClick("about")}>
                   About
-                </a>
-                <a href="#projects" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium">
+                </button>
+                <button href="#projects" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium" onClick={() => handleClick("projects")}>
                   Projects
-                </a>
-                <a href="#experience" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium">
+                </button>
+                <button href="#experience" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium" onClick={() => handleClick("experience")}>
                   Experience
-                </a>
-                <a href="#skills" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium">
+                </button>
+                <button href="#skills" className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium" onClick={() => handleClick("skills")}>
                   Skills
-                </a>
+                </button>
               </div>
             </div>
           )}
