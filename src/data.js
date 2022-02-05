@@ -40,19 +40,6 @@ export const projects = [
     },
 ];
 
-export const languages = [
-    "Python",
-    "C++",
-    "JavaScript",
-];
-
-export const others = [
-    "ReactJS",
-    "Git",
-    "Django",
-    "ElectronJS",
-];
-
 export const experiences = [
     {
         title: "experience1",
