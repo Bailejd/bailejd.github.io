@@ -14,12 +14,18 @@ export default function Projects() {
     }
 
     setId(newId);
-    window.location.href = "#projects";
+
+    setTimeout(() => {
+      window.location.href = "#project-details";
+    }, 1);
   }
 
   function hide(displayedId) {
     setVisible(false);
-    window.location.href = "#project" + displayedId;
+
+    setTimeout(() => {
+      window.location.href = "#project" + displayedId;
+    }, 1);
   }
 
   return (
@@ -38,7 +44,7 @@ export default function Projects() {
             fuga dolore.
           </p>
         </div>
-        <div id="project-details" className={`border-4 border-gray-800 py-5 mb-5 ${visible ? "" : "hidden"}`}>
+        <div id="project-details" className={`border-4 border-gray-800 py-5 mb-5 scroll-m-20 ${visible ? "" : "hidden"}`}>
           <ProjectDetails id={id}/>
           <div className="flex justify-center pt-1 space-x-1">
             <button className="inline-flex text-white bg-red-500 border-0 px-6 focus:outline-none hover:bg-red-600 rounded text-lg" onClick={() => hide(id)}>Less</button>
