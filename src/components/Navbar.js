@@ -29,7 +29,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <div className="flex">
                 <a
-                  href="#"
+                  href="#top"
                   className="title-font font-medium text-white ml-3 text-xl hover:text-green-400"
                 >
                   <div className="flex">
