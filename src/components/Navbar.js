@@ -22,15 +22,15 @@ export default function Navbar() {
   };
 
   return (
-    <div className="top-0 z-10 sticky">
+    <div className="sticky top-0 z-10">
       <nav className="bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex h-16 items-center justify-between">
             <div className="flex items-center">
               <div className="flex">
                 <a
                   href="#top"
-                  className="title-font font-medium text-white ml-3 text-xl hover:text-green-400"
+                  className="ml-3 text-xl font-medium text-white hover:text-green-400"
                 >
                   <div className="flex">
                     <span className="pr-1">
@@ -46,32 +46,32 @@ export default function Navbar() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="#about"
-                    className="text-white hover:text-green-400 px-3 py-2 rounded-md text-sm font-medium"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
                   >
                     About
                   </a>
                   <a
                     href="#projects"
-                    className="text-white hover:text-green-400 px-3 py-2 rounded-md text-sm font-medium"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
                   >
                     Projects
                   </a>
                   <a
                     href="#experience"
-                    className="text-white hover:text-green-400 px-3 py-2 rounded-md text-sm font-medium"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
                   >
                     Experience
                   </a>
                   <a
                     href="#skills"
-                    className="text-white hover:text-green-400 px-3 py-2 rounded-md text-sm font-medium"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
                   >
                     Skills
                   </a>
                 </div>
               </div>
             </div>
-            <div className="hidden md:block content-right">
+            <div className="hidden md:block">
               <div className="flex items-baseline space-x-4">
                 <a
                   href="https://github.com/Bailejd"
@@ -92,7 +92,7 @@ export default function Navbar() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-green-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-white hover:bg-gray-800 hover:text-green-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -145,37 +145,37 @@ export default function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref={ref} className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
                 <button
                   href="#about"
-                  className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium"
+                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("about")}
                 >
                   About
                 </button>
                 <button
                   href="#projects"
-                  className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium"
+                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("projects")}
                 >
                   Projects
                 </button>
                 <button
                   href="#experience"
-                  className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium"
+                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("experience")}
                 >
                   Experience
                 </button>
                 <button
                   href="#skills"
-                  className="text-white hover:text-green-400 block px-3 py-2 rounded-md text-base font-medium"
+                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("skills")}
                 >
                   Skills
                 </button>
               </div>
-              <div className="flex items-baseline py-2 space-x-4 justify-center">
+              <div className="flex items-baseline justify-center space-x-4 py-2">
                 <a
                   href="https://github.com/Bailejd"
                   className="text-white hover:text-green-400"

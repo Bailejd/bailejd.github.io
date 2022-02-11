@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
-import {IconContext } from "react-icons";
+import { IconContext } from "react-icons";
 import { FaCode } from "react-icons/fa";
 import { projects } from "../data";
 
@@ -9,7 +9,7 @@ export default function Projects() {
   const [id, setId] = useState(0);
 
   function toggleProject(newId) {
-    if(visible === false) {
+    if (visible === false) {
       setVisible(true);
     }
 
@@ -30,44 +30,75 @@ export default function Projects() {
 
   return (
     <section id="projects" className="scroll-m-10">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <IconContext.Provider value={{ size: "2em"}}>
-            <FaCode className="mx-auto inline-block w-20 mb-4"/>
+      <div className="container mx-auto px-5 py-10 text-center lg:px-40">
+        <div className="mb-20 flex w-full flex-col">
+          <IconContext.Provider value={{ size: "2em" }}>
+            <FaCode className="mx-auto mb-4 inline-block w-20" />
           </IconContext.Provider>
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="mb-4 text-3xl font-medium text-white sm:text-4xl">
             My Projects / Repositories
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="mx-auto text-base leading-relaxed lg:w-2/3">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
           </p>
         </div>
-        <div id="project-details" className={`border-4 border-gray-800 py-5 mb-5 scroll-m-20 ${visible ? "" : "hidden"}`}>
-          <ProjectDetails id={id}/>
-          <div className="flex justify-center pt-1 space-x-1">
-            <button className="inline-flex text-white bg-red-500 border-0 px-6 focus:outline-none hover:bg-red-600 rounded text-lg" onClick={() => hide(id)}>Less</button>
-            {projects[id].repo_available ? 
-              <a href={projects[id].repo} className="inline-flex text-white bg-green-500 hover:bg-green-600 border-0 px-6 focus:outline-none rounded text-lg">GitHub</a>
-              : null
-            }
+        <div
+          id="project-details"
+          className={`mb-5 scroll-m-20 border-4 border-gray-800 py-5 ${
+            visible ? "" : "hidden"
+          }`}
+        >
+          <ProjectDetails id={id} />
+          <div className="flex justify-center space-x-1 pt-1">
+            <button
+              className="inline-flex rounded border-0 bg-red-500 px-6 text-lg text-white hover:bg-red-600 focus:outline-none"
+              onClick={() => hide(id)}
+            >
+              Less
+            </button>
+            {projects[id].repo_available ? (
+              <a
+                href={projects[id].repo}
+                className="inline-flex rounded border-0 bg-green-500 px-6 text-lg text-white hover:bg-green-600 focus:outline-none"
+              >
+                GitHub
+              </a>
+            ) : null}
           </div>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="-m-4 flex flex-wrap">
           {projects.map((project) => (
-            <div key={project.title} id={"project" + project.id} className="sm:w-1/2 w-100 p-4 scroll-m-16">
-              <div className="flex relative">
-                <div className="px-8 py-10 relative w-full border-4 border-gray-800 bg-gray-900">
-                  <h1 className="title-font text-2xl font-medium text-white mb-3">{project.title}</h1>
-                  <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1">{project.primary_language}</h2>
+            <div
+              key={project.title}
+              id={"project" + project.id}
+              className="scroll-m-16 p-4 sm:w-1/2"
+            >
+              <div className="relative flex">
+                <div className="relative w-full border-4 border-gray-800 bg-gray-900 px-8 py-10">
+                  <h1 className="mb-3 text-2xl font-medium text-white">
+                    {project.title}
+                  </h1>
+                  <h2 className="mb-1 text-lg font-medium tracking-widest text-green-400">
+                    {project.primary_language}
+                  </h2>
                   <p className="leading-relaxed">{project.short_description}</p>
-                  <div className="flex justify-center pt-1 space-x-1">
-                    <button className="inline-flex text-white bg-green-500 hover:bg-green-600 border-0 py-2 px-6 focus:outline-none rounded text-lg" onClick={() => toggleProject(project.id)}>More</button>
-                    {project.repo_available ?
-                      <a href={project.repo} className="inline-flex text-white bg-green-500 hover:bg-green-600 border-0 py-2 px-6 focus:outline-none rounded text-lg">GitHub</a>
-                      : null
-                    }
+                  <div className="flex justify-center space-x-1 pt-1">
+                    <button
+                      className="inline-flex rounded border-0 bg-green-500 py-2 px-6 text-lg text-white hover:bg-green-600 focus:outline-none"
+                      onClick={() => toggleProject(project.id)}
+                    >
+                      More
+                    </button>
+                    {project.repo_available ? (
+                      <a
+                        href={project.repo}
+                        className="inline-flex rounded border-0 bg-green-500 py-2 px-6 text-lg text-white hover:bg-green-600 focus:outline-none"
+                      >
+                        GitHub
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>
