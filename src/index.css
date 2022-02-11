@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-        background-color: rgb(17, 24, 39);
-		scroll-behavior: auto;
-	}
+  html {
+    background-color: rgb(17, 24, 39);
+    scroll-behavior: auto;
+  }
 }
 
 html {
-    background-color: rgb(17, 24, 39);
-    scroll-behavior: smooth;
+  background-color: rgb(17, 24, 39);
+  scroll-behavior: smooth;
 }
