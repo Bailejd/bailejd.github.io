@@ -77,15 +77,15 @@ export default function Projects() {
             >
               <div className="relative flex">
                 <div className="relative w-full border-4 border-gray-800 bg-gray-900">
-                  <img src={project.image} alt="" className="absolute inset-0 w-full h-full object-cover object-center" />
-                  <div className="px-8 py-10 relative z-10 w-full bg-gray-900 opacity-0 hover:opacity-100">
+                  <img src={project.image} alt="" className="absolute inset-0 w-full h-full object-cover object-center brightness-50" />
+                  <div className="px-8 py-10 relative z-10 w-full">
                     <h1 className="mb-3 text-2xl font-medium text-white">
                       {project.title}
                     </h1>
                     <h2 className="mb-1 text-lg font-medium tracking-widest text-green-400">
                       {project.primary_language}
                     </h2>
-                    <p className="leading-relaxed">{project.short_description}</p>
+                    <p className="leading-relaxed text-white">{project.short_description}</p>
                     <div className="flex justify-center space-x-1 pt-1">
                       <button
                         className="inline-flex rounded border-0 bg-green-500 py-2 px-6 text-lg text-white hover:bg-green-600 focus:outline-none"
