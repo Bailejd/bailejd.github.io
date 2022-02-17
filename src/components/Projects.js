@@ -78,7 +78,7 @@ export default function Projects() {
               <div className="relative flex">
                 <div className="relative w-full border-4 border-gray-800 bg-gray-900">
                   <img src={project.image} alt="" className="absolute inset-0 w-full h-full object-cover object-center brightness-50" />
-                  <div className="px-8 py-10 relative z-10 w-full">
+                  <div className="px-8 py-10 relative w-full">
                     <h1 className="mb-3 text-2xl font-medium text-white">
                       {project.title}
                     </h1>
