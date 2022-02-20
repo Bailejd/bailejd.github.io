@@ -32,14 +32,7 @@ export default function Navbar() {
                   href="#top"
                   className="ml-3 text-xl font-medium text-white hover:text-green-400"
                 >
-                  <div className="flex">
-                    <span className="pr-1">
-                      <IconContext.Provider value={{ size: "1.5em" }}>
-                        <FaGithub />
-                      </IconContext.Provider>
-                    </span>
-                    <span>Bailejd</span>
-                  </div>
+                  <span>Bailejd</span>
                 </a>
               </div>
               <div className="hidden md:block">
