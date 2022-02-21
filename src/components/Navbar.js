@@ -39,25 +39,25 @@ export default function Navbar() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="#about"
-                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     About
                   </a>
                   <a
                     href="#projects"
-                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     Projects
                   </a>
                   <a
                     href="#experience"
-                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     Experience
                   </a>
                   <a
                     href="#skills"
-                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     Skills
                   </a>
@@ -141,28 +141,28 @@ export default function Navbar() {
               <div ref={ref} className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
                 <button
                   href="#about"
-                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
+                  className="block px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("about")}
                 >
                   About
                 </button>
                 <button
                   href="#projects"
-                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
+                  className="block px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("projects")}
                 >
                   Projects
                 </button>
                 <button
                   href="#experience"
-                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
+                  className="block px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("experience")}
                 >
                   Experience
                 </button>
                 <button
                   href="#skills"
-                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:text-green-400"
+                  className="block px-3 py-2 text-base font-medium text-white hover:text-green-400"
                   onClick={() => handleClick("skills")}
                 >
                   Skills
