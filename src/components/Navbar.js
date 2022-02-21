@@ -39,25 +39,25 @@ export default function Navbar() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="#about"
-                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
+                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     About
                   </a>
                   <a
                     href="#projects"
-                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
+                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     Projects
                   </a>
                   <a
                     href="#experience"
-                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
+                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     Experience
                   </a>
                   <a
                     href="#skills"
-                    className="rounded-md px-3 py-2 text-sm font-medium text-white hover:text-green-400"
+                    className="rounded-md px-3 py-2 text-md font-medium text-white hover:text-green-400"
                   >
                     Skills
                   </a>
