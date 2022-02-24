@@ -39,9 +39,16 @@ export default function Projects() {
             My Projects / Repositories
           </h1>
           <p className="mx-auto text-base leading-relaxed lg:w-2/3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Here are a few projects I am working on.
+          </p>
+          <p className="mx-auto text-base leading-relaxed lg:w-2/3">
+            Visit my GitHub for more.{" "}
+            <a
+              href="https://github.com/Bailejd"
+              className="text-green-500 underline hover:text-green-400"
+            >
+              GitHub Link →
+            </a>
           </p>
         </div>
         <div
