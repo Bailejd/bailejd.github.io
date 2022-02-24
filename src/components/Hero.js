@@ -1,15 +1,11 @@
 import React from "react";
 import { IconContext } from "react-icons";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Hero() {
   return (
     <section className="scroll-m-10">
-      <div className="container mx-auto flex h-screen w-1/2 items-center">
+      <div className="container mx-auto flex h-screen items-center px-5 py-10 lg:px-40">
         <div className="mb-4 font-medium">
           <h1 className="text-3xl text-white sm:text-4xl">Hey, my name is</h1>
           <h2 className="text-4xl text-green-400 sm:text-5xl">Jacob Bailey.</h2>
