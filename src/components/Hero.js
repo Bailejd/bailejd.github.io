@@ -10,10 +10,10 @@ export default function Hero() {
           <h1 className="text-3xl text-white sm:text-4xl">Hey, my name is</h1>
           <h2 className="text-4xl text-green-400 sm:text-5xl">Jacob Bailey.</h2>
           <h3 className="text-xl text-gray-400 sm:text-3xl">
-            Software Developer
+            Software Developer.
           </h3>
           <p className="text-xl sm:text-2xl"></p>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 text-base leading-relaxed sm:text-xl">
             Lorem ipsum dolor sit <strong>amet consectetur</strong> adipisicing
             elit. Totam, eaque incidunt nesciunt odio cumque quae architecto,
             minima et repellat ex excepturi, iusto nobis tempore possimus. Illum
