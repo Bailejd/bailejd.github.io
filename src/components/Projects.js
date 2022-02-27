@@ -45,7 +45,7 @@ export default function Projects() {
             Visit my GitHub for more.{" "}
             <a
               href="https://github.com/Bailejd"
-              className="text-green-500 underline hover:text-green-400"
+              className="text-green-400 underline hover:text-green-500"
             >
               GitHub Link →
             </a>
