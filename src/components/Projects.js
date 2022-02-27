@@ -38,10 +38,10 @@ export default function Projects() {
           <h1 className="mb-4 text-3xl font-medium text-white sm:text-4xl">
             My Projects / Repositories
           </h1>
-          <p className="mx-auto text-base leading-relaxed lg:w-2/3">
+          <p className="mx-auto font-medium text-base sm:text-lg leading-relaxed lg:w-2/3">
             Here are a few projects I am working on.
           </p>
-          <p className="mx-auto text-base leading-relaxed lg:w-2/3">
+          <p className="mx-auto font-medium text-base sm:text-lg leading-relaxed lg:w-2/3">
             Visit my GitHub for more.{" "}
             <a
               href="https://github.com/Bailejd"
