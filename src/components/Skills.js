@@ -22,11 +22,9 @@ export default function Skills() {
           <h1 className="mb-4 text-3xl font-medium text-white sm:text-4xl">
             Skills
           </h1>
-          <p className="mx-auto text-base leading-relaxed lg:w-3/4 xl:w-2/4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            distinctio expedita quasi fuga sapiente consequuntur dicta
-            consectetur exercitationem voluptatem at veniam fugit aperiam ullam,
-            labore minima in, totam, cupiditate quidem!
+          <p className="mx-auto text-base font-medium leading-relaxed sm:text-lg lg:w-3/4 xl:w-2/4">
+            Here are a few of the languages and technologies I have been using
+            recently.
           </p>
         </div>
         <h2 className="mb-4 text-center text-2xl font-medium text-white sm:text-3xl">
