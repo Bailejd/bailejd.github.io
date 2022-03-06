@@ -12,9 +12,11 @@ export default function ProjectDetails({ id }) {
       </h2>
       <h3 className="text-white">{projects[id].languages.join(", ")}</h3>
       <h3 className="text-white">{projects[id].other.join(", ")}</h3>
-      <p className="mt-1 mb-2 px-10 leading-relaxed">
-        {projects[id].description}
-      </p>
+      {projects[id].description.map((paragraph) => (
+        <p className="mt-1 mb-2 px-10 leading-relaxed">
+          {paragraph}
+        </p>
+      ))}
     </div>
   );
 }
