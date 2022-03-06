@@ -20,13 +20,20 @@ export default function Experience() {
             <div key={experience.title} className="p-4 sm:w-full">
               <div className="relative flex">
                 <div className="relative w-full border-4 border-gray-800 bg-gray-900 px-8 py-10">
-                  <h1 className="mb-3 text-lg font-medium text-white">
+                  <h1 className="mb-3 text-2xl font-medium text-white">
                     {experience.title}
                   </h1>
-                  <h2 className="mb-1 text-sm font-medium tracking-widest text-green-400">
+                  <h2 className="mb-1 text-lg font-medium tracking-widest text-green-400">
                     {experience.position}
                   </h2>
                   <p className="leading-relaxed">{experience.description}</p>
+                  <div className="w-1/2 mx-auto text-left">
+                    <ul className="list-disc">
+                      {experience.points.map((point) => (
+                        <li>{point}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
