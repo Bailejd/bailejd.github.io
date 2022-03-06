@@ -1,60 +1,94 @@
 export const projects = [
-    {
-        id: 0,
-        title: "project1",
-        primary_language: "Various",
-        languages: ["Python", "JavaScript", "Java", "Rust"],
-        other: ["Numpy"],
-        short_description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur cum nam laboriosam recusandae, corrupti aspernatur accusamus soluta doloremque illum?",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis iste in quia molestias perspiciatis officiis nesciunt, necessitatibus exercitationem facere libero officia fuga eos magnam impedit eius culpa laudantium quaerat? Exercitationem ab, officiis quisquam commodi qui repudiandae non iusto tempora? Nobis unde facere corrupti amet minima iusto illum incidunt. Eius rerum eveniet, quo provident placeat veniam, sapiente error omnis dignissimos alias sint voluptatum recusandae quos aperiam fugiat reprehenderit debitis? Consequuntur modi, dolor porro veniam deserunt ipsum necessitatibus blanditiis dignissimos. Quos veritatis eos cupiditate voluptas explicabo impedit minus ad, molestiae natus dolore sed fuga aut. Natus facere iste vero, sapiente eum delectus.",
-        image: "./images/Default.png",
-        link: "#",
-        repo: "https://github.com/",
-        repo_available: false,
-    },
-    {
-        id: 1,
-        title: "project2",
-        primary_language: "JavaScript",
-        languages: [""],
-        other: ["React", "Tailwind"],
-        short_description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur cum nam laboriosam recusandae, corrupti aspernatur accusamus soluta doloremque illum?",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis iste in quia molestias perspiciatis officiis nesciunt, necessitatibus exercitationem facere libero officia fuga eos magnam impedit eius culpa laudantium quaerat? Exercitationem ab, officiis quisquam commodi qui repudiandae non iusto tempora? Nobis unde facere corrupti amet minima iusto illum incidunt. Eius rerum eveniet, quo provident placeat veniam, sapiente error omnis dignissimos alias sint voluptatum recusandae quos aperiam fugiat reprehenderit debitis? Consequuntur modi, dolor porro veniam deserunt ipsum necessitatibus blanditiis dignissimos. Quos veritatis eos cupiditate voluptas explicabo impedit minus ad, molestiae natus dolore sed fuga aut. Natus facere iste vero, sapiente eum delectus.",
-        image: "./images/Default.png",
-        link: "#",
-        repo: "https://github.com/",
-        repo_available: true,
-    },
-    {
-        id: 2,
-        title: "project3",
-        primary_language: "JavaScript",
-        languages: ["Javascript"],
-        other: ["React", "Tailwind"],
-        short_description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur cum nam laboriosam recusandae, corrupti aspernatur accusamus soluta doloremque illum?",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis iste in quia molestias perspiciatis officiis nesciunt, necessitatibus exercitationem facere libero officia fuga eos magnam impedit eius culpa laudantium quaerat? Exercitationem ab, officiis quisquam commodi qui repudiandae non iusto tempora? Nobis unde facere corrupti amet minima iusto illum incidunt. Eius rerum eveniet, quo provident placeat veniam, sapiente error omnis dignissimos alias sint voluptatum recusandae quos aperiam fugiat reprehenderit debitis? Consequuntur modi, dolor porro veniam deserunt ipsum necessitatibus blanditiis dignissimos. Quos veritatis eos cupiditate voluptas explicabo impedit minus ad, molestiae natus dolore sed fuga aut. Natus facere iste vero, sapiente eum delectus.",
-        image: "./images/Default.png",
-        link: "#",
-        repo: "https://github.com/",
-        repo_available: true,
-    },
+  {
+    id: 0,
+    title: "Advent-of-Code",
+    primary_language: "Various",
+    languages: ["Python", "Java", "C++"],
+    other: ["Numpy"],
+    short_description:
+      "A repository containing my solutions to the seasonal Advent of Code \
+      Challenges. Advent of Code is an advent calendar of programming puzzles \
+      created by Eric Wastl.",
+    description:
+      [
+        "Advent of Code is an advent calendar of programming puzzles created by \
+        Eric Wastl. Advent of Code challenges people to solve increasingly \
+        difficult problems which encourage learning various algorithms and data \
+        structures. This repository is a collection of my solutions to each year \
+        of Advent of Code. I started in 2020 and participated in the event live in \
+        2021. When I have free time I work on 2015 in Java and work on completing \
+        the years I've started in Python.",
+      ],
+    image: "./images/Default.png",
+    link: "#",
+    repo: "https://github.com/Bailejd/Advent-of-Code",
+    repo_available: true,
+  },
+  {
+    id: 1,
+    title: "bailejd.github.io",
+    primary_language: "JavaScript",
+    languages: [""],
+    other: ["React", "Tailwind CSS"],
+    short_description:
+      "This is the page you are viewing right now. My first React portfolio \
+      hosted with GitHub Pages. With the goal of consistently updating it's \
+      content as a more visual and creative resume.",
+    description:
+      [
+        "This is the page you are viewing right now. My first React portfolio \
+        hosted with GitHub Pages. With the goal of consistently updating it's \
+        content as a more visual and creative resume. Created using React and \
+        Tailwind CSS",
+      ],
+    image: "./images/Default.png",
+    link: "#",
+    repo: "https://github.com/",
+    repo_available: true,
+  },
+  {
+    id: 2,
+    title: "Destiny2-Light-Calculator",
+    primary_language: "JavaScript",
+    languages: ["Javascript"],
+    other: ["React", "Node.js", "Express.js"],
+    short_description:
+      "My first React project. A level calculator for the video game Destiny 2. \
+      Uses Bungie-net API to collect the user's character data, performs \
+      calculations, and displays it in a useful way.",
+    description:
+      [
+        "My first React Project. A level calculator for Destiny 2 which uses \
+        Bungie-net API to collect the user's character data, performs \
+        calculations, and displays it in a way that shows the user what they can \
+        do to level effiecently. Uses React to build the user interface of the \
+        single page application with reusable components. The backend uses Express \
+        and handles various Bungie-net API calls, formats the responses and then \
+        sends data to the client.",
+      ],
+    image: "./images/Default.png",
+    link: "#",
+    repo: "https://github.com/",
+    repo_available: false,
+  },
 ];
 
 export const experiences = [
-    {
-        title: "experience1",
-        position: "Software Developer",
-        rel_languages: "C++",
-        rel_skills: ["Boost Test", "CMake", "Git"],
-        date: "01/10/21-08/12/21",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur voluptatum cumque id aut rerum tempore fuga dolores eligendi exercitationem porro laboriosam, animi, incidunt labore. Modi unde repudiandae quo saepe."
-    },
-    {
-        title: "experience2",
-        position: "Intern",
-        rel_languages: "TypeScript",
-        rel_skills: ["ReactJS", "API", "Git"],
-        date: "01/10/21-08/12/21",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur voluptatum cumque id aut rerum tempore fuga dolores eligendi exercitationem porro laboriosam, animi, incidunt labore. Modi unde repudiandae quo saepe."
-    },
+  {
+    title: "SrcDiff Internship",
+    position: "Software Testing, Intern",
+    rel_languages: "C++",
+    rel_skills: ["Boost Test", "CMake", "Git"],
+    date: "01/10/21-08/12/21",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur voluptatum cumque id aut rerum tempore fuga dolores eligendi exercitationem porro laboriosam, animi, incidunt labore. Modi unde repudiandae quo saepe.",
+    points:
+      [
+        "Wrote strong sets of tests using Boost Test Library to ensure proper \
+        execution of functions crucial to srcDiff's operation",
+        "Found, reported, and fixed bugs discovered through testing",
+        "Fixed issues with error handling",
+        "Documented and refactored existing code",
+      ],
+  },
 ];
