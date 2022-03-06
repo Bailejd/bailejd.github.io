@@ -14,10 +14,10 @@ export default function Hero() {
           </h3>
           <p className="text-xl sm:text-2xl"></p>
           <p className="mb-8 text-base leading-relaxed sm:text-xl">
-            Lorem ipsum dolor sit <strong>amet consectetur</strong> adipisicing
-            elit. Totam, eaque incidunt nesciunt odio cumque quae architecto,
-            minima et repellat ex excepturi, iusto nobis tempore possimus. Illum
-            quod fuga porro earum?
+            I'm a recent graduate with a{" "}
+            <strong>BSc in Computer Science</strong> currently looking for
+            opportunities to continue learning software development and create
+            well written and powerful software solutions.
           </p>
           <div
             id="buttons"
