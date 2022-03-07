@@ -100,16 +100,6 @@ export default function Skills() {
             <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
-                  <SiDjango className="" />
-                </IconContext.Provider>
-                <span className="font-medium text-white">Django</span>
-              </div>
-            </div>
-          </div>
-          <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
-              <div className="flex flex-col items-center">
-                <IconContext.Provider value={{ size: "2em" }}>
                   <FaCode className="" />
                 </IconContext.Provider>
                 <span className="font-medium text-white">Boost Test</span>
