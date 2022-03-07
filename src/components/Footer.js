@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <section id="footer">
       <div className="container mx-auto py-5 text-center lg:px-40">
-        <p>Some filler text for the footer</p>
         <p>
           Designed and Developed by{" "}
           <a
