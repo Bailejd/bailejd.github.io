@@ -36,8 +36,8 @@ export default function About() {
               >
                 Advent of Code
               </a>
-              , where I can continue to learn algorithms and data structure in a
-              fun and competitive way.
+              , where I can continue to learn algorithms and data structures in
+              a fun and competitive way.
             </p>
           </div>
         </div>
