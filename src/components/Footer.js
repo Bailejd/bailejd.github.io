@@ -11,8 +11,8 @@ export default function Footer() {
             className="text-white underline hover:text-green-400"
           >
             Bailejd
-          </a>
-          {" "} using React and Tailwind CSS
+          </a>{" "}
+          using React and Tailwind CSS
         </p>
       </div>
     </section>

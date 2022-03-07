@@ -15,7 +15,7 @@ export default function Experience() {
             Experience
           </h1>
         </div>
-        <div className="-m-4 flex flex-wrap">
+        <div className="-m-4 flex flex-wrap font-medium">
           {experiences.map((experience) => (
             <div key={experience.title} className="p-4 sm:w-full">
               <div className="relative flex">
@@ -26,8 +26,8 @@ export default function Experience() {
                   <h2 className="mb-1 text-lg font-medium tracking-widest text-green-400">
                     {experience.position}
                   </h2>
-                  <p className="leading-relaxed">{experience.description}</p>
-                  <div className="w-1/2 mx-auto text-left">
+                  <p className="pb-2">{experience.description}</p>
+                  <div className="mx-auto w-1/2 text-left">
                     <ul className="list-disc">
                       {experience.points.map((point) => (
                         <li>{point}</li>
