@@ -1,4 +1,14 @@
-# bailejd.github.io
+# [bailejd.github.io](https://bailejd.github.io/)
+
+## Goals
+
+The goals of this project were to...
+
+- Create a React Portfolio page that could be hosted on GitHub Pages
+- Gain more experience with CSS and test out Tailwind CSS
+- Create a portfolio to work as a form of resume which could be easily updated and added to.
+
+---
 
 ## Available Scripts
 
