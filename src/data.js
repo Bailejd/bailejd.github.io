@@ -81,7 +81,8 @@ export const experiences = [
     rel_skills: ["Boost Test", "CMake", "Git"],
     date: "01/10/21-08/12/21",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur voluptatum cumque id aut rerum tempore fuga dolores eligendi exercitationem porro laboriosam, animi, incidunt labore. Modi unde repudiandae quo saepe.",
+      "srcDiff is a C++ program for computing the syntactical difference \
+      between two versions of source code.",
     points:
       [
         "Wrote strong sets of tests using Boost Test Library to ensure proper \
