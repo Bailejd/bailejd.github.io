@@ -8,7 +8,6 @@ import {
   SiJava,
   SiGit,
   SiReact,
-  SiDjango,
 } from "react-icons/si";
 
 export default function Skills() {
