@@ -35,7 +35,7 @@ export default function Hero() {
               <div>GitHub</div>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/jacob-bailey-78972a1b3"
               className="inline-flex w-full justify-center rounded border-0 bg-green-500 py-2 px-6 text-lg text-white hover:bg-green-600 focus:outline-none sm:w-1/6"
             >
               <div className="pr-1">
@@ -45,7 +45,7 @@ export default function Hero() {
               </div>
               <div>LinkedIn</div>
             </a>
-            <a
+            {/* <a
               // mailto:example@gmail.com
               href="#"
               className="inline-flex w-full justify-center rounded border-0 bg-green-500 py-2 px-6 text-lg text-white hover:bg-green-600 focus:outline-none sm:w-1/6"
@@ -56,7 +56,7 @@ export default function Hero() {
                 </IconContext.Provider>
               </div>
               <div>Email</div>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
