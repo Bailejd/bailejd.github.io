@@ -39,25 +39,25 @@ export default function Navbar() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="#about"
-                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 font-medium text-white hover:text-green-400"
                   >
                     About
                   </a>
                   <a
                     href="#projects"
-                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 font-medium text-white hover:text-green-400"
                   >
                     Projects
                   </a>
                   <a
                     href="#experience"
-                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 font-medium text-white hover:text-green-400"
                   >
                     Experience
                   </a>
                   <a
                     href="#skills"
-                    className="px-3 py-2 text-md font-medium text-white hover:text-green-400"
+                    className="px-3 py-2 font-medium text-white hover:text-green-400"
                   >
                     Skills
                   </a>
@@ -74,7 +74,10 @@ export default function Navbar() {
                     <FaGithub />
                   </IconContext.Provider>
                 </a>
-                <a href="/" className="text-white hover:text-green-400">
+                <a
+                  href="https://www.linkedin.com/in/jacob-bailey-78972a1b3"
+                  className="text-white hover:text-green-400"
+                >
                   <IconContext.Provider value={{ size: "2em" }}>
                     <FaLinkedin />
                   </IconContext.Provider>
@@ -177,7 +180,10 @@ export default function Navbar() {
                     <FaGithub />
                   </IconContext.Provider>
                 </a>
-                <a href="/" className="text-white hover:text-green-400">
+                <a
+                  href="https://www.linkedin.com/in/jacob-bailey-78972a1b3"
+                  className="text-white hover:text-green-400"
+                >
                   <IconContext.Provider value={{ size: "2em" }}>
                     <FaLinkedin />
                   </IconContext.Provider>
