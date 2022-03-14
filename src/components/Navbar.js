@@ -171,7 +171,7 @@ export default function Navbar() {
                   Skills
                 </button>
               </div>
-              <div className="flex items-baseline justify-center space-x-4 py-2">
+              <div className="flex items-baseline justify-center space-x-4 pt-2 pb-4">
                 <a
                   href="https://github.com/Bailejd"
                   className="text-white hover:text-green-400"
