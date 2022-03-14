@@ -43,7 +43,7 @@ export const projects = [
       ],
     image: "./images/Default.png",
     link: "#",
-    repo: "https://github.com/",
+    repo: "https://github.com/Bailejd/bailejd.github.io",
     repo_available: true,
   },
   {
