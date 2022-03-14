@@ -31,7 +31,7 @@ export default function Skills() {
         </h2>
         <div className="-mx-2 flex flex-wrap sm:mx-auto sm:mb-2 lg:w-2/5">
           <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
+            <div className="flex h-full justify-center rounded p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <SiPython className="" />
@@ -41,7 +41,7 @@ export default function Skills() {
             </div>
           </div>
           <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
+            <div className="flex h-full justify-center rounded p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <SiCplusplus className="" />
@@ -51,7 +51,7 @@ export default function Skills() {
             </div>
           </div>
           <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
+            <div className="flex h-full justify-center rounded p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <SiJavascript className="" />
@@ -61,7 +61,7 @@ export default function Skills() {
             </div>
           </div>
           <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
+            <div className="flex h-full justify-center rounded p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <SiJava className="" />
@@ -76,7 +76,7 @@ export default function Skills() {
         </h2>
         <div className="-mx-2 flex flex-wrap sm:mx-auto sm:mb-2 lg:w-2/5">
           <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
+            <div className="flex h-full justify-center rounded p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <SiGit className="" />
@@ -86,7 +86,7 @@ export default function Skills() {
             </div>
           </div>
           <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
+            <div className="flex h-full justify-center rounded p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <SiReact className="" />
@@ -96,7 +96,7 @@ export default function Skills() {
             </div>
           </div>
           <div className="w-1/3 p-2">
-            <div className="flex h-full justify-center rounded bg-gray-800 p-4 text-center">
+            <div className="flex h-full justify-center rounded p-4 text-center">
               <div className="flex flex-col items-center">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <FaCode className="" />
