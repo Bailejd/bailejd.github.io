@@ -44,7 +44,7 @@ export default function Projects() {
           <p className="mx-auto text-base font-medium leading-relaxed sm:text-lg lg:w-2/3">
             Visit my GitHub for more.{" "}
             <a
-              href="https://github.com/Bailejd"
+              href="https://github.com/Bailejd?tab=repositories"
               className="text-green-400 underline hover:text-green-500"
             >
               GitHub Link →
