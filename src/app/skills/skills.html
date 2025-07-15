@@ -1,0 +1,41 @@
+<section id="skills" class="scroll-m-10">
+  <div class="container mx-auto px-5 py-10">
+    <div class="mb-20 text-center">
+      <!-- Icon would go here -->
+      <h1 class="mb-4 text-3xl font-medium text-white sm:text-4xl">
+        Skills
+      </h1>
+      <p class="mx-auto text-base font-medium leading-relaxed sm:text-lg lg:w-3/4 xl:w-2/4">
+        Here are a few of the languages, technologies, and other skills I have been using recently.
+      </p>
+    </div>
+    <h2 class="mb-4 text-center text-2xl font-medium text-white sm:text-3xl">
+      Programming Languages
+    </h2>
+    <div class="-mx-2 flex flex-wrap sm:mx-auto sm:mb-2 lg:w-2/5">
+      @for (language of languages; track language) {
+        <div class="w-1/3 p-2">
+          <div class="flex h-full justify-center rounded p-4 text-center">
+            <div class="flex flex-col items-center">
+              <span class="font-medium text-white">{{ language }}</span>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+    <h2 class="mb-4 text-center text-2xl font-medium text-white sm:text-3xl">
+      Others
+    </h2>
+    <div class="-mx-2 flex flex-wrap sm:mx-auto sm:mb-2 lg:w-2/5">
+      @for (other of others; track other) {
+        <div class="w-1/3 p-2">
+          <div class="flex h-full justify-center rounded p-4 text-center">
+            <div class="flex flex-col items-center">
+              <span class="font-medium text-white">{{ other }}</span>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

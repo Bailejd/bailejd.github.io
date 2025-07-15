@@ -1,0 +1,32 @@
+<section id="projects" class="scroll-m-10">
+  <div class="container mx-auto px-5 py-10 text-center lg:px-40">
+    <div class="mb-20 flex w-full flex-col">
+      <!-- Insert Icon Here -->
+      <h1 class="mb-4 text-3xl font-medium text-white sm:text-4xl">
+        My Projects / Repos
+      </h1>
+      <p class="mx-auto text-base font-medium leading-relaxed sm:text-lg lg:w-2/3">
+        Here are a few projects I've worked on.
+      </p>
+      <p class="mx-auto text-base font-medium leading-relaxed sm:text-lg lg:w-2/3">
+        Visit my GitHub for more.
+        <a 
+          href="https://github.com/Bailejd?tab=repositories"
+          target="_blank"
+          class="text-green-400 underline hover:text-green-500">
+          GitHub Link →
+        </a>
+      </p>
+    </div>
+    <div class="-m-4 flex flex-wrap">
+      @for (projectData of projects; track projectData.id) {
+        <app-project [project]="projectData" (viewDetails)="openModal(projectData)" class="scroll-m-16 p-4 sm:w-1/2"></app-project>
+      }
+    </div>
+    <app-modal [isOpen]="selectedProject() !== null" (isOpenChange)="closeModal()">
+      <ng-container *ngIf="selectedProject() as project">
+        <app-project-details [project]="project"></app-project-details>
+      </ng-container>
+    </app-modal>
+  </div>
+</section>
