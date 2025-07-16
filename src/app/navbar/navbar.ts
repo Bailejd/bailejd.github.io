@@ -7,5 +7,19 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.css'
 })
 export class Navbar {
+  isOpen: boolean = false;
 
+  toggleIsOpen() {
+    this.isOpen = !this.isOpen;
+  }
+
+  handleClick(section: string) {
+    if (this.isOpen) {
+      this.isOpen = false;
+    }
+
+    setTimeout(() => {
+      window.location.href = '#' + section;
+    }, 100);
+  }
 }
