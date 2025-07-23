@@ -25,7 +25,7 @@ export const EXPERIENCES: ExperienceData[] = [
   {
     "id": 2,
     "title": "General Motors",
-    "position": "Software Test Engineer (with Development Responsibilities)",
+    "position": "Software Test Engineer (with Software Dev Responsibilities)",
     "rel_languages": ["Java", "TypeScript"],
     "rel_skills": ["Angular", "Playwright", "PostgreSQL", "CI/CD", "Agile"],
     "date": "January 2023 - July 2025",
