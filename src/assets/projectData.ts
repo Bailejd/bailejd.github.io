@@ -5,7 +5,7 @@ export const PROJECTS: ProjectData[] = [
     id: 0,
     title: "bailejd.github.io",
     primary_language: "TypeScript",
-    languages: [],
+    secondary_languages: [],
     other: ["Angular", "Tailwind CSS"],
     short_description:
       "This is the page you are viewing right now. My Angular portfolio \
@@ -27,7 +27,7 @@ export const PROJECTS: ProjectData[] = [
     id: 1,
     title: "Advent-of-Code",
     primary_language: "Python",
-    languages: ["Python", "Java", "C++"],
+    secondary_languages: ["Java", "C++"],
     other: ["Numpy"],
     short_description:
       "A GitHub repository containing my solutions to the seasonal Advent of Code \
@@ -52,7 +52,7 @@ export const PROJECTS: ProjectData[] = [
     id: 2,
     title: "Destiny2-Light-Calculator",
     primary_language: "JavaScript",
-    languages: ["Javascript"],
+    secondary_languages: [],
     other: ["React", "Node.js", "Express.js"],
     short_description:
       "My first full-stack React project. \

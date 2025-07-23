@@ -20,7 +20,7 @@
     </div>
     <div class="-m-4 flex flex-wrap">
       @for (projectData of projects; track projectData.id) {
-        <app-project [project]="projectData" (viewDetails)="openModal(projectData)" class="scroll-m-16 p-4 sm:w-1/2"></app-project>
+        <app-project [project]="projectData" (viewDetails)="openModal(projectData)" class="scroll-m-16 p-4 md:w-1/2"></app-project>
       }
     </div>
     <app-modal [isOpen]="selectedProject() !== null" (isOpenChange)="closeModal()">
