@@ -20,7 +20,6 @@ export class Experience {
 
   ngOnInit() {
     this.getExperiences();
-    console.log(this.experiences);
   }
 
   getExperiences() {

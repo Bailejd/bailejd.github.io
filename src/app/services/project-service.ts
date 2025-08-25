@@ -13,7 +13,6 @@ export class ProjectService {
 
   getProjects(): Observable<ProjectData[]> {
     const projects = of(PROJECTS);
-    console.log('Fetched project data');
     return projects;
   }
 }
